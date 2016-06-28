@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1E57F6761D228C2100098565 /* all */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1E57F6771D228C2100098565 /* Build configuration list for PBXAggregateTarget "all" */;
+			buildPhases = (
+			);
+			dependencies = (
+				1E57F67B1D228C2400098565 /* PBXTargetDependency */,
+				1E57F67D1D228C2600098565 /* PBXTargetDependency */,
+			);
+			name = all;
+			productName = all;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1E57F62C1D227D9F00098565 /* getrlimit_nofile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E57F62B1D227D9F00098565 /* getrlimit_nofile.cpp */; };
+		1E57F6751D228C1000098565 /* getrlimit_nofile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E57F62B1D227D9F00098565 /* getrlimit_nofile.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E57F67A1D228C2400098565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E57F6201D227D9F00098565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E57F6271D227D9F00098565;
+			remoteInfo = getrlimit_nofile;
+		};
+		1E57F67C1D228C2600098565 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E57F6201D227D9F00098565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E57F66D1D228BCA00098565;
+			remoteInfo = getrlimit_nofile_dostdio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1E57F6261D227D9F00098565 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1E57F66C1D228BCA00098565 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1E57F6281D227D9F00098565 /* getrlimit_nofile */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = getrlimit_nofile; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E57F62B1D227D9F00098565 /* getrlimit_nofile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = getrlimit_nofile.cpp; sourceTree = "<group>"; };
+		1E57F66E1D228BCA00098565 /* getrlimit_nofile_dostdio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = getrlimit_nofile_dostdio; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E57F6251D227D9F00098565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E57F66B1D228BCA00098565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E57F61F1D227D9F00098565 = {
+			isa = PBXGroup;
+			children = (
+				1E57F62B1D227D9F00098565 /* getrlimit_nofile.cpp */,
+				1E57F6291D227D9F00098565 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E57F6291D227D9F00098565 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E57F6281D227D9F00098565 /* getrlimit_nofile */,
+				1E57F66E1D228BCA00098565 /* getrlimit_nofile_dostdio */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E57F6271D227D9F00098565 /* getrlimit_nofile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E57F62F1D227D9F00098565 /* Build configuration list for PBXNativeTarget "getrlimit_nofile" */;
+			buildPhases = (
+				1E57F6241D227D9F00098565 /* Sources */,
+				1E57F6251D227D9F00098565 /* Frameworks */,
+				1E57F6261D227D9F00098565 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = getrlimit_nofile;
+			productName = getrlimit_nofile;
+			productReference = 1E57F6281D227D9F00098565 /* getrlimit_nofile */;
+			productType = "com.apple.product-type.tool";
+		};
+		1E57F66D1D228BCA00098565 /* getrlimit_nofile_dostdio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E57F6721D228BCA00098565 /* Build configuration list for PBXNativeTarget "getrlimit_nofile_dostdio" */;
+			buildPhases = (
+				1E57F66A1D228BCA00098565 /* Sources */,
+				1E57F66B1D228BCA00098565 /* Frameworks */,
+				1E57F66C1D228BCA00098565 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = getrlimit_nofile_dostdio;
+			productName = getrlimit_nofile_dostdio;
+			productReference = 1E57F66E1D228BCA00098565 /* getrlimit_nofile_dostdio */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E57F6201D227D9F00098565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Frédéric Devernay";
+				TargetAttributes = {
+					1E57F6271D227D9F00098565 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1E57F66D1D228BCA00098565 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1E57F6761D228C2100098565 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1E57F6231D227D9F00098565 /* Build configuration list for PBXProject "getrlimit_nofile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1E57F61F1D227D9F00098565;
+			productRefGroup = 1E57F6291D227D9F00098565 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E57F6761D228C2100098565 /* all */,
+				1E57F6271D227D9F00098565 /* getrlimit_nofile */,
+				1E57F66D1D228BCA00098565 /* getrlimit_nofile_dostdio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E57F6241D227D9F00098565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E57F62C1D227D9F00098565 /* getrlimit_nofile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E57F66A1D228BCA00098565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E57F6751D228C1000098565 /* getrlimit_nofile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E57F67B1D228C2400098565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E57F6271D227D9F00098565 /* getrlimit_nofile */;
+			targetProxy = 1E57F67A1D228C2400098565 /* PBXContainerItemProxy */;
+		};
+		1E57F67D1D228C2600098565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E57F66D1D228BCA00098565 /* getrlimit_nofile_dostdio */;
+			targetProxy = 1E57F67C1D228C2600098565 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E57F62D1D227D9F00098565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1E57F62E1D227D9F00098565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1E57F6301D227D9F00098565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E57F6311D227D9F00098565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E57F6731D228BCA00098565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DOSTDIO=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E57F6741D228BCA00098565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DOSTDIO=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E57F6781D228C2100098565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E57F6791D228C2100098565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E57F6231D227D9F00098565 /* Build configuration list for PBXProject "getrlimit_nofile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E57F62D1D227D9F00098565 /* Debug */,
+				1E57F62E1D227D9F00098565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E57F62F1D227D9F00098565 /* Build configuration list for PBXNativeTarget "getrlimit_nofile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E57F6301D227D9F00098565 /* Debug */,
+				1E57F6311D227D9F00098565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E57F6721D228BCA00098565 /* Build configuration list for PBXNativeTarget "getrlimit_nofile_dostdio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E57F6731D228BCA00098565 /* Debug */,
+				1E57F6741D228BCA00098565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E57F6771D228C2100098565 /* Build configuration list for PBXAggregateTarget "all" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E57F6781D228C2100098565 /* Debug */,
+				1E57F6791D228C2100098565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E57F6201D227D9F00098565 /* Project object */;
+}
